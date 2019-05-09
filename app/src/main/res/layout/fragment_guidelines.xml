@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:padding="36dp">
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:background="@color/colorWhite"
+            android:orientation="vertical">
+
+        <TextView
+                android:id="@+id/guidelineTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="24dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="@string/guidelines_title"
+                android:textSize="24sp"/>
+
+        <TextView
+                android:id="@+id/guidelineText1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="24dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="@string/guidelines_text_part_1"/>
+
+        <TextView
+                android:id="@+id/guidelineText2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="@string/guidelines_text_part_2"/>
+
+    </LinearLayout>
+
+
+
+</ScrollView>

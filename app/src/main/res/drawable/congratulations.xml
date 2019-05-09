@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android"
+                android:oneshot="false">
+
+    <item android:drawable="@drawable/congrats1" android:duration="100" />
+    <item android:drawable="@drawable/congrats2" android:duration="100" />
+    <item android:drawable="@drawable/congrats3" android:duration="100" />
+    <item android:drawable="@drawable/congrats4" android:duration="100" />
+    <item android:drawable="@drawable/congrats5" android:duration="100" />
+    <item android:drawable="@drawable/congratulations1" android:duration="250" />
+    <item android:drawable="@drawable/congratulations1" android:duration="250" />
+    <item android:drawable="@drawable/congratulations2" android:duration="250" />
+    <item android:drawable="@drawable/congratulations3" android:duration="200" />
+    <item android:drawable="@drawable/congrats6" android:duration="50" />
+
+</animation-list>
